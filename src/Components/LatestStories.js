@@ -47,7 +47,6 @@ export default function LatestStories() {
                   color: "inherit",
                   textDecoration: "inherit"
                 }}
-                key={story.id}
                 href={story.url}
               >
                 <Story>
