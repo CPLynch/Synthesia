@@ -6,10 +6,8 @@ Hopefully this communicates the important bits.
 -----
 
 
-To start
-`npm ci`
 
-To start in dev:
+`npm ci`
 
 `npm run dev`
 

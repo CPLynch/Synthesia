@@ -10,7 +10,7 @@ export default function NewsHomePage() {
   const Main = styled.div`
     font-family: Verdana;
     background-color: #bb1919;
-    height: 100vh;
+    min-height: 100vh;
   `;
 
   const Container = styled.div`
