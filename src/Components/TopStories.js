@@ -123,11 +123,13 @@ export default function LatestStories() {
               borderRadius: "40px",
               cursor: "pointer",
               fontWeight: "bold",
-              fontSize: "20px"
+              fontSize: "20px",
+              fontStyle: "italic",
+              border: "3px solid #ff6600"
             }}
             onClick={() => setGrabNewBatch(6)}
           >
-            More
+            More...
           </button>
         </div>
       )}

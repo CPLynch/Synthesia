@@ -14,6 +14,11 @@ export const Story = styled.article`
   & h3 {
     font-size: ${props => (props.main ? "32px" : "20px")};
   }
+  &:hover {
+    & h3 {
+        text-decoration: underline;
+    }
+  }
   padding: 17px 26px;
   border-radius: 6px;
   border: 1px solid rgba(0, 0, 0, 0.6);

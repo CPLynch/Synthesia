@@ -8,8 +8,8 @@ import LatestStories from "../Components/LatestStories";
 
 export default function NewsHomePage() {
   const Main = styled.div`
-    font-family: Verdana;
-    background-color: #bb1919;
+    font-family: Segoe UI;
+    background-color: #F8F9FA;
     min-height: 100vh;
   `;
 

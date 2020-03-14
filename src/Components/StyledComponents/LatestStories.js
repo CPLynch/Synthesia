@@ -10,6 +10,11 @@ export const LatestStoriesSection = styled.section`
 export const Story = styled.article`
   position: relative;
   padding: 16px 24px;
+   &:hover {
+    & h3 {
+        text-decoration: underline;
+    }
+  }
   &:before {
     content: "";
     position: absolute;

@@ -16,7 +16,9 @@ export default function Loading() {
           backgroundColor: "white",
           padding: "20px 30px",
           borderRadius: "40px",
-          fontSize: "18px"
+          fontSize: "18px",
+          border: "3px solid black",
+          fontWeight: "bold"
         }}
       >
         Loading...
